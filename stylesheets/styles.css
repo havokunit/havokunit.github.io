@@ -93,7 +93,7 @@ p {
 /* Header and Footer
 ===============================*/
 .forBGTemp, footer {
-    background: #fcf7f7;
+   /* background: #fcf7f7; 
     min-height: 75px;
 /*    overflow: auto;*/
 }
@@ -152,6 +152,7 @@ footer a {
     margin-left: 5px;
     margin-right: 5px;
     padding: 1.1em;
+    min-width: 1vw; 
 }
 
 footer a:hover {
