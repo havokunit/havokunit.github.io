@@ -80,10 +80,11 @@ p {
 
 /* Header and Footer
 ===============================*/
-.forBGTemp, footer {
-   /* background: #fcf7f7; 
-    min-height: 75px;
-/*    overflow: auto;*/
+#logo {
+  display: inline-block;
+  text-align: center;
+  margin: 15px auto;
+  vertical-align: middle;
 }
 
 .header {
@@ -96,17 +97,20 @@ p {
   text-align: center;
 }
 
-
-#logo {
-  display: inline-block;
-  text-align: center;
-  margin: 15px auto;
-  vertical-align: middle;
-  width: 240px;
+footer {
+    background: #fcf7f7;
+    width: 100%;
+    min-height: 75px;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 30% 30% x;
+    grid-template-rows: 30% 30% x;
+    font-size: 12px;
 }
 
 footer h2 {
     color: #1d0049;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -114,30 +118,13 @@ footer h2 {
 }
 
 footer a {
-/*
-    color: #fcf7f7;
-    background: #1d0049;
-*/
     padding: 10px;
-/*    border-radius: 10px;*/
     margin-left: 5px;
     margin-right: 5px;
     padding: 1.1em;
     min-width: 1vw; 
 }
 
-footer a:hover {
-/*
-    color: #1d0049;
-    background: #fcf7f7;
-    font-weight: bold;
-    border: 3px solid #1d0049;
-    border-radius: 5px;
-*/
-    margin-left: 5px;
-    margin-right: 5px;
-/*    padding: 1.2em;*/
-}
 
 footer p {
     margin-top: 20px;
@@ -228,4 +215,16 @@ main {
   border-style: solid;
   margin: auto;
   border-radius: 5%;
+}
+
+.cal-text {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 100%;
+}
+
+#cal {
+    width: 50%;
+    margin: auto;
 }
