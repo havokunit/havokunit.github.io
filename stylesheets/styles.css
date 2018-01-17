@@ -209,6 +209,11 @@ main {
     text-align: center;
 }
 
+.post-text strong {
+    text-align: center;
+    font-size: 30px;
+}
+
 #firstPost {
   border-color: #000009;
   border-width: 10px;
