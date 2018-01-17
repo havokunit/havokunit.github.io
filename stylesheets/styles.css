@@ -118,17 +118,27 @@ footer h2 {
 }
 
 footer a {
-    padding: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    padding: 1.1em;
+    padding: 2em;
     min-width: 1vw; 
 }
 
-
 footer p {
+    color: #1d0049;
+    font-size: 18px;
+    padding: 0px 5px 10px 15px;
+}
+
+#footer-grid {
+    display: grid;
+    grid-template: 15% 15% / 10% 10%;
+}
+
+#copy {
     margin-top: 20px;
     padding: 1.1em;
+    font-size: 14px;
 }
 
 
