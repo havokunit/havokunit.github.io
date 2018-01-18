@@ -97,7 +97,7 @@ footer a {
 footer p {
     color: #1d0049;
     font-size: 18px;
-    padding: 0px 5px 10px 15px;
+    padding-left: 20px;
 }
 
 footer img {
@@ -107,11 +107,11 @@ footer img {
 #footer-grid {
     display: grid;
     max-width: 300px;
+    max-height: 150px;
     grid-template: 1fr 1fr / 1fr 1fr;
 }
 
 #copy {
-    margin-top: 20px;
     padding: 1.1em;
     font-size: 14px;
 }
