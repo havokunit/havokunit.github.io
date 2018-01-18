@@ -100,9 +100,14 @@ footer p {
     padding: 0px 5px 10px 15px;
 }
 
+footer img {
+    margin-left: 20px;
+}
+
 #footer-grid {
     display: grid;
-    grid-template: 15% 15% / 10% 10%;
+    max-width: 300px;
+    grid-template: 1fr 1fr / 1fr 1fr;
 }
 
 #copy {
