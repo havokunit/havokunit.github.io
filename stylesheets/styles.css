@@ -33,37 +33,9 @@ html {
   padding: 0;
 }
 
-.projects-button {
-  cursor: pointer;
-}
-
 a {
     color: #fcf7f7;
 }
-
-.projects a {
-    padding: 10px;
-}
-
-
-/*
-a:visited {
-  color: grey;
-}
-*/
-
-
-a:active {
-    border: 1px dotted #fcf7f7;
-
-}
-
-/*
-a:focus {
-    outline: ;
-}
-*/
-
 
 main p, main li {
     color: #fcf7f7;
@@ -73,28 +45,26 @@ main h2, main h3 {
     color: #1d0049;
 }
 
-p {
-    width: 450px;
-}
-
 
 /* Header and Footer
 ===============================*/
 #logo {
   display: inline-block;
   text-align: center;
-  margin: 15px auto;
-  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
 }
 
 .header {
   font-family: 'Times New Roman', cursive, serif;
-  font-size: 36px;
-  color: #ae0006;
+  font-size: 24px;
+  margin-top: 25px;
+  margin-left: 10px;
+  color: #fcf7f7;
 /*   flame color:   #e63223*/
   display: inline-block;
-  vertical-align: middle;
-  text-align: center;
+  float: left;
 }
 
 footer {
@@ -147,18 +117,18 @@ footer p {
 ===============================*/
 .nav-bar {
   width: 100%;
-  height: 60px;
-  background-color: #000009;
+  height: 110px;
+  background-color: #111214;
   color:#fcf7f7;  /* old white #defff2 */
-  text-align: center;
   margin: 0px;
 }
 
 nav li {
-    min-width: 25px;
+    min-width: 95px;
     display: inline-grid;
-    float: left;
-    grid-template-columns: 10% 10% 10% x;
+    float: right;
+    grid-template-columns: 10% 10% x;
+    margin-top: 25px;
 }
 
 .nav-bar a {
@@ -168,10 +138,7 @@ nav li {
 }
 
 nav a:hover, li a:hover {
-   color: #000009;
-   background: #fcf7f7;
-   border: 1px solid #000009;
-   border-radius: 3px;
+   color: #950000;
    font-weight: bold;
     text-decoration: underline;
 }
